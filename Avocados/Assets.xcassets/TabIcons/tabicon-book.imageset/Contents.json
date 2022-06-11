@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "avocado-slice-5.jpg",
+      "filename" : "tabicon-book.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,7 +12,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "avocado-slice-6.jpg",
+      "filename" : "tabicon-book-1.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -23,7 +23,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "avocado-slice-5-dark.jpg",
+      "filename" : "tabicon-book-dark.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
