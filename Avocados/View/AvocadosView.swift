@@ -50,7 +50,7 @@ struct AvocadosView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
         )
-        .edgesIgnoringSafeArea(.all)
+        .edgesIgnoringSafeArea(.top)
         .onAppear(perform: {
             pulsateAnimation.toggle()
         })

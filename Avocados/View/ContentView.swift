@@ -25,18 +25,25 @@ struct ContentView: View {
                     }
                 }
                 
+                // MARK: - DISHES
+                Text("Avocado Dishes")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                
+                DishesView()
+                    .frame(maxWidth: 640)
+                
                 // MARK: - FOOTER
                 VStack(alignment: .center, spacing: 20) {
                     Text("All About Avocados")
-                        .font(.system(.title, design: .serif))
                         .fontWeight(.bold)
-                        .foregroundColor(Color("ColorGreenAdaptive"))
-                        .padding(8)
+                        .modifier(TitleModifier())
                     
                     Text("Everything you wanted to know about avocados but were too afraid to ask.")
                         .font(.system(.body, design: .serif))
                         .multilineTextAlignment(.center)
                         .foregroundColor(.gray)
+                        .frame(minHeight: 60)
                 } //: VSTACK
                 .frame(maxWidth: 640)
                 .padding()
@@ -48,6 +55,15 @@ struct ContentView: View {
     }
 }
 
+struct TitleModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.system(.title, design: .serif))
+            .foregroundColor(Color("ColorGreenAdaptive"))
+            .padding(8)
+    }
+}
+
 // MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -56,6 +72,7 @@ struct ContentView_Previews: PreviewProvider {
                 .environment(\.colorScheme, .light)
             
             ContentView(headers: headerData)
+                .previewDevice("iPad Pro (11-inch) (3rd generation)")
                 .environment(\.colorScheme, .dark)
         }
     }

@@ -9,30 +9,30 @@ import SwiftUI
 
 struct AppView: View {
     // MARK: - PROPERTY
-    
+
     // MARK: - BODY
     var body: some View {
         TabView {
             AvocadosView()
-                .tabItem({
-                    Image("tabicon-branch")
-                    Text("Avocados")
-                })
+                .tabItem {
+                Image("tabicon-branch")
+                Text("Avocados")
+            }
             ContentView()
-                .tabItem({
-                    Image("tabicon-book")
-                    Text("Recipes")
-                })
+                .tabItem {
+                Image("tabicon-book")
+                Text("Recipes")
+            }
             AvocadosView()
-                .tabItem({
-                    Image("tabicon-avocado")
-                    Text("Ripening")
-                })
+                .tabItem {
+                Image("tabicon-avocado")
+                Text("Ripening")
+            }
             AvocadosView()
-                .tabItem({
-                    Image("tabicon-settings")
-                    Text("Settings")
-                })
+                .tabItem {
+                Image("tabicon-settings")
+                Text("Settings")
+            }
         } //: TABVIEW
         .edgesIgnoringSafeArea(.top)
         .accentColor(.primary)
