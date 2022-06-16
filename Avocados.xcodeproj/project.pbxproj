@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7151F66285B16B200BC137A /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F65285B16B200BC137A /* RipeningView.swift */; };
+		D7151F69285B1B5D00BC137A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F68285B1B5D00BC137A /* Constant.swift */; };
 		D77111952854AC7400C7C38F /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77111942854AC7400C7C38F /* DishesView.swift */; };
 		D77111972854B9FA00C7C38F /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77111962854B9FA00C7C38F /* FactsView.swift */; };
 		D77111992854BCB100C7C38F /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77111982854BCB100C7C38F /* FactModel.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7151F65285B16B200BC137A /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		D7151F68285B1B5D00BC137A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		D77111942854AC7400C7C38F /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
 		D77111962854B9FA00C7C38F /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
 		D77111982854BCB100C7C38F /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
@@ -68,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7151F67285B1B4000BC137A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				D7151F68285B1B5D00BC137A /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		D7B5CEE02854808100C4C97A /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +115,7 @@
 				D77111A22854CF3300C7C38F /* RecipeRatingView.swift */,
 				D774D7E4285AE65400B3B2A3 /* RecipeCookingView.swift */,
 				D774D7E6285AECA300B3B2A3 /* RecipeDetailView.swift */,
+				D7151F65285B16B200BC137A /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +142,7 @@
 				D7B5CEE22854809200C4C97A /* View */,
 				D7B5CEE02854808100C4C97A /* Model */,
 				D7B5CEE12854808C00C4C97A /* Data */,
+				D7151F67285B1B4000BC137A /* Utility */,
 				D7F2EBC328544CAA00B561A3 /* AvocadosApp.swift */,
 				D7F2EBC728544CAE00B561A3 /* Assets.xcassets */,
 				D7B5CEDE28547BA700C4C97A /* Launch Screen.storyboard */,
@@ -228,7 +242,9 @@
 				D7B5CEF02854931000C4C97A /* HeaderData.swift in Sources */,
 				D77111952854AC7400C7C38F /* DishesView.swift in Sources */,
 				D774D7E5285AE65400B3B2A3 /* RecipeCookingView.swift in Sources */,
+				D7151F66285B16B200BC137A /* RipeningView.swift in Sources */,
 				D77111992854BCB100C7C38F /* FactModel.swift in Sources */,
+				D7151F69285B1B5D00BC137A /* Constant.swift in Sources */,
 				D77111972854B9FA00C7C38F /* FactsView.swift in Sources */,
 				D77111A12854C8B300C7C38F /* RecipeCardView.swift in Sources */,
 				D771119F2854C88800C7C38F /* RecipeData.swift in Sources */,
